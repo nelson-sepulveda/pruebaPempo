@@ -1,0 +1,23 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "pempo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nelson",
+  "license": "ISC",
+  "dependencies": {
+    "angular-material": "^1.1.10",
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "material-design-icons": "^3.0.1"
+  },
+  "devDependencies": {
+    "angular": "^1.7.2",
+    "nodemon": "^1.17.5",
+    "socket.io": "^2.1.1"
+  }
+}
